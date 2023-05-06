@@ -1,6 +1,6 @@
 //Task One 
 //Check current Year is leap or not
-
+/*
 function checkLeap(current) {
     if(current%4==0){
         alert("Current Year "+current+ "is a leap year")
@@ -40,7 +40,7 @@ document.write(list);
 
 
 //Task three
-//Generate OTP
+//A function to generate OTP
 
 function generateOTP(){
     var OTP = Math.floor((Math.random()*2650)* (
@@ -51,5 +51,15 @@ function generateOTP(){
 var myOTP = generateOTP();
 alert("Your OTP is :" +myOTP)
 
+*/
 
+//Task Four
+//A function that converts string into capital case
 
+function CapitalCase(str){
+    str=str.toUpperCase();
+    alert("String in Capital Case:" +str);
+}
+
+var str = prompt("Enter a string:");
+CapitalCase(str);
