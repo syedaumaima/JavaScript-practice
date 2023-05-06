@@ -39,3 +39,17 @@ document.write(list);
 
 
 
+//Task three
+//Generate OTP
+
+function generateOTP(){
+    var OTP = Math.floor((Math.random()*2650)* (
+        Math.floor(Math.random()*14700)));
+        return "Z-"+OTP;
+}
+
+var myOTP = generateOTP();
+alert("Your OTP is :" +myOTP)
+
+
+
