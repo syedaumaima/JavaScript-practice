@@ -51,7 +51,7 @@ function generateOTP(){
 var myOTP = generateOTP();
 alert("Your OTP is :" +myOTP)
 
-*/
+
 
 //Task Four
 //A function that converts string into capital case
@@ -63,3 +63,16 @@ function CapitalCase(str){
 
 var str = prompt("Enter a string:");
 CapitalCase(str);
+
+*/
+
+//Task Five
+//A function that calculate your age
+
+function CalculateAge(current,DOB){
+    alert("Your age is:" +Math.floor(age/(1000*60*60*24*365)))
+}
+
+var current = new Date();
+var DOB = new Date (prompt("Enter Your Age:" , `Nov 6, 2002`))
+CalculateAge(current,DOB);
