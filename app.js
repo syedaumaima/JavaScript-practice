@@ -14,5 +14,28 @@ function checkLeap(current) {
 var current = new Date ();
 checkLeap(current.getFullYear());
 
+//Task two
+//A Function that returns the leap years of upcoming next 10 years
+
+function nextLeap(year) {
+    var i, leaplist = [];
+    for (i = 1; i <= 10; i++) {
+        if (year % 4 == 0) {
+            leapList.push(year)
+        }
+
+        else {
+            i--;
+    }
+        year++;
+    }
+    return leaplist;
+}
+
+var year = prompt("Enter a year to find next 10 leap years:");
+var list = nextLeaps(year);
+document.write("Upcoming next 10 leap years are:");
+document.write(list);
+
 
 
